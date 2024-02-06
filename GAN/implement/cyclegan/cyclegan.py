@@ -23,7 +23,7 @@ import torch
 import multiprocessing
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--epoch", type=int, default=97, help="epoch to start training from")
+parser.add_argument("--epoch", type=int, default=0, help="epoch to start training from")
 parser.add_argument("--n_epochs", type=int, default=200, help="number of epochs of training")
 parser.add_argument("--dataset_name", type=str, default="data", help="name of the dataset")
 parser.add_argument("--batch_size", type=int, default=1, help="size of the batches")
